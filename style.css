@@ -1,16 +1,16 @@
 /*
-    Theme Name: MetalMan Child Theme
-	Theme URI: http://www.mistermachineshop.com
-	Description: MetalMan is a child theme created for the Genesis Framework.
-    Author: MisterMachine
-    Author URI: http://www.mistermachineshop.com
+  Theme Name: MetalMan Child Theme
+  Theme URI: http://www.mistermachineshop.com
+  Description: MetalMan is a child theme created for the Genesis Framework.
+  Author: MisterMachine
+  Author URI: http://www.mistermachineshop.com
  
-    Version: 1.0
+  Version: 1.0
  
-    Tags: dry, oocss, html5
+  Tags: dry, oocss, html5
  
-    Template: genesis
-    Template Version: 1.8
+  Template: genesis
+  Template Version: 1.8
  
 */
 
@@ -42,10 +42,10 @@ time, mark, audio, video {
 /* Box Sizing */
 *,
 input[type="search"] {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing:    border-box;
-	box-sizing:         border-box;
-}       
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing:    border-box;
+  box-sizing:         border-box;
+}
 
 /* Main Elements */
 html { font: normal 112.5%/1.65 serif; -webkit-font-smoothing: antialiased; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
@@ -67,51 +67,51 @@ h6,
 p,
 select,
 textarea {
-	color: #444;
-	font-family: 'Merriweather', Georgia, "Times New Roman", Times;
-	text-decoration: none;
+  color: #444;
+  font-family: 'Merriweather', Georgia, "Times New Roman", Times;
+  text-decoration: none;
 }
 
 ol, ul {
-	list-style: none;
+  list-style: none;
 }
 
 blockquote, q {
-	quotes: none;
+  quotes: none;
 }
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+  content: '';
+  content: none;
 }
 
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Helpers */
 /* Clearfix */
 .clearfix:after {
-	content: ".";
-	display: block;
-	clear: both;
-	visibility: hidden;
-	line-height: 0;
-	height: 0;
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
 }
  
 .clearfix {
-	display: inline-block;
+  display: inline-block;
 }
  
 html[xmlns] .clearfix {
-	display: block;
+  display: block;
 }
  
 * html .clearfix {
-	height: 1%;
+  height: 1%;
 }
 
 /* Typography */
@@ -120,57 +120,57 @@ h1,h2,h3,h4,h5,h6 { line-height: 1; margin-top: 0; font-weight: bold; text-rende
 
 h1,
 .alpha {
-	font-size: 60px;
-	font-size: 3.33333rem; /* 60 / 18 = 3.3333 */
-	margin-bottom: 0.495em;
+  font-size: 60px;
+  font-size: 3.33333rem; /* 60 / 18 = 3.3333 */
+  margin-bottom: 0.495em;
 }
 
 h2,
 .beta {
-	font-size: 48px;
-	font-size: 2.6667rem; /* 48 / 18 = 2.6667 */
-	margin-bottom: 0.61875rem;
+  font-size: 48px;
+  font-size: 2.6667rem; /* 48 / 18 = 2.6667 */
+  margin-bottom: 0.61875rem;
 }
 
 h3,
 .gamma {
-	font-size: 36px;
-	font-size: 2rem; /* 36 / 18 = 2 */
-	margin-bottom: 0.825em;
+  font-size: 36px;
+  font-size: 2rem; /* 36 / 18 = 2 */
+  margin-bottom: 0.825em;
 }
 
 h4,
 .delta {
-	font-size: 24px;
-	font-size: 1.3333333333333333rem; /* 24 / 18 = 1.3333 */
-	margin-bottom: 1.2375em;
+  font-size: 24px;
+  font-size: 1.3333333333333333rem; /* 24 / 18 = 1.3333 */
+  margin-bottom: 1.2375em;
 }
 
 h5,
 .epsilon {
-	font-size: 21px;
-	font-size: 1.16667rem; /* 21 / 18 = 1.1667 */
-	margin-bottom: 1.4142857142857141em; /* measure( base font-size(18) * base line-height(1.65) ) / current font-size(21) = margin-bottom(1.4142857142857141) */
+  font-size: 21px;
+  font-size: 1.16667rem; /* 21 / 18 = 1.1667 */
+  margin-bottom: 1.4142857142857141em; /* measure( base font-size(18) * base line-height(1.65) ) / current font-size(21) = margin-bottom(1.4142857142857141) */
 }
 
 h6,
 .zeta {
-	font-size: 18px;
-	font-size: 1rem; /* 18 = 18 × 1 */
-	margin-bottom: 1.65em; /* measure( base font-size(18) * base line-height(1.65) ) / current font-size(18) = margin-bottom(1.65) */
+  font-size: 18px;
+  font-size: 1rem; /* 18 = 18 × 1 */
+  margin-bottom: 1.65em; /* measure( base font-size(18) * base line-height(1.65) ) / current font-size(18) = margin-bottom(1.65) */
 }
 
 p {
-	margin: auto auto 1.5em; /* bottom margin for paragraphs */
+  margin: auto auto 1.5em; /* bottom margin for paragraphs */
 }
 
 p + p {
-	text-indent: 1.5em; /* indent subsequent paragraphs */
-	margin-top: -1.5em; /* no top margin on subsequent paragraphs */
+  text-indent: 1.5em; /* indent subsequent paragraphs */
+  margin-top: -1.5em; /* no top margin on subsequent paragraphs */
 }
 
 small {
-	font-size: 65%;
+  font-size: 65%;
 }
 
 /* Reset Form Elements */
