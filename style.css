@@ -101,15 +101,15 @@ table {
   line-height: 0;
   height: 0;
 }
- 
+
 .clearfix {
   display: inline-block;
 }
- 
+
 html[xmlns] .clearfix {
   display: block;
 }
- 
+
 * html .clearfix {
   height: 1%;
 }
@@ -129,7 +129,7 @@ h2,
 .beta {
   font-size: 48px;
   font-size: 2.6667rem; /* 48 / 18 = 2.6667 */
-  margin-bottom: 0.61875rem;
+  margin-bottom: 0.61875em;
 }
 
 h3,
