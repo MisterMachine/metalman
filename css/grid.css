@@ -4,7 +4,8 @@
 .lastUnit { 
     overflow: hidden; 
     *overflow: visible; 
-    * zoom:1;}
+    * zoom:1;
+    }
 
 .unit { float:left; }
 .unitRight { float:right; }
@@ -24,4 +25,5 @@
     width: auto; 
     _position: relative; 
     _left: -3px; 
-    _margin-right: -3px; }
+    _margin-right: -3px; 
+    }

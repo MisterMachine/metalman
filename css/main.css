@@ -27,5 +27,8 @@
 /* Breakpoints */
 @import "breakpoint.css";
 
+/* Variables */
+@import "variables.css";
+
 /* Grid Import */
 @import url("grid.css") (min-width:768px);
