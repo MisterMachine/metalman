@@ -1,15 +1,16 @@
 /*
-  Theme Name: MetalMan Child Theme
-  Theme URI: http://www.mistermachineshop.com
-  Description: MetalMan is a child theme created for the Genesis Framework.
+  MetalMan
   Author: MisterMachine
-  Author URI: http://www.mistermachineshop.com
- 
+  Author URI: http://www.mistermachine.com
+
   Version: 1.0
- 
+
   Tags: dry, oocss, html5
 
 */
+
+/* Character encoding */
+@charset "UTF-8";
 
 /* Import Fonts */
 @import url(http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic);
@@ -188,3 +189,8 @@ select:focus { outline: none; }
 button { width: auto; overflow: visible; }
 button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline; *vertical-align: middle; }
 button, input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; -webkit-appearance: button; *overflow: visible; }
+
+/* Breakpoints */
+@media only screen and (min-width: 480px) {}
+@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 1024px) {}

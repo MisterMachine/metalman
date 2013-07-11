@@ -1,0 +1,11 @@
+/* Reset Form Elements */
+/* Input */
+input { outline: none; }
+input:focus { outline: none; }
+input, select { vertical-align: middle; }
+select:focus { outline: none; }
+
+/* Buttons */
+button { width: auto; overflow: visible; }
+button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline; *vertical-align: middle; }
+button, input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; -webkit-appearance: button; *overflow: visible; }
