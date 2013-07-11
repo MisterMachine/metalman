@@ -8,10 +8,7 @@
   Version: 1.0
  
   Tags: dry, oocss, html5
- 
-  Template: genesis
-  Template Version: 1.8
- 
+
 */
 
 /* Import Fonts */
@@ -45,6 +42,13 @@ input[type="search"] {
   -webkit-box-sizing: border-box;
   -moz-box-sizing:    border-box;
   box-sizing:         border-box;
+}
+
+/* Irish Box Model with Schepp box-sizing polyfill */
+.border-box { 
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box; *behavior: url(/js/boxsizing.htc);
 }
 
 /* Main Elements */

@@ -1,0 +1,2 @@
+# Add support for .htc resources
+AddType text/x-component .htc
