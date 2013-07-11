@@ -1,7 +1,10 @@
 /* Class Grid based on OOCSS */
 
 .line,
-.lastUnit { overflow: hidden; *overflow: visible; * zoom:1;}
+.lastUnit { 
+    overflow: hidden; 
+    *overflow: visible; 
+    * zoom:1;}
 
 .unit { float:left; }
 .unitRight { float:right; }
@@ -16,4 +19,9 @@
 .size2of5 { width: 40%; }
 .size3of5 { width: 60%; }
 .size4of5 { width: 80%; }
-.lastUnit { float: none; width: auto; _position: relative; _left: -3px; _margin-right: -3px; }
+.lastUnit { 
+    float: none; 
+    width: auto; 
+    _position: relative; 
+    _left: -3px; 
+    _margin-right: -3px; }

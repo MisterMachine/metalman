@@ -1,58 +1,69 @@
 /* Typography */
+
+/* Main Elements */
+html { 
+    font: normal 100%/1.65 serif; 
+    -webkit-font-smoothing: antialiased; 
+    -webkit-text-size-adjust: 100%; 
+    -ms-text-size-adjust: 100%; }
+
+body { 
+    -webkit-hyphens: auto; 
+    -moz-hyphens: auto; 
+    -ms-hyphens: auto; 
+    -o-hyphens: auto; 
+    hyphens: auto; 
+    word-wrap: break-word; }
+
 /* Headings */
-h1,h2,h3,h4,h5,h6 { line-height: 1; margin-top: 0; font-weight: bold; text-rendering: optimizeLegibility; }
+h1,h2,h3,h4,h5,h6 { 
+    line-height: 1; 
+    margin-top: 0; 
+    font-weight: bold; 
+    text-rendering: optimizeLegibility; }
 
 h1,
 .alpha {
   font-size: 30px;
   font-size: 1.875rem; /* 30 / 16 = 1.875 */
-  margin-bottom: 0.495em;
-}
+  margin-bottom: 0.495em; }
 
 h2,
 .beta {
   font-size: 20px;
   font-size: 1.25rem; /* 20 / 16 = 1.25 */
-  margin-bottom: 0.61875em;
-}
+  margin-bottom: 0.61875em; }
 
 h3,
 .gamma {
   font-size: 16px;
   font-size: 1rem; /* 16 / 16 = 1 */
-  margin-bottom: 0.825em;
-}
+  margin-bottom: 0.825em; }
 
 h4,
 .delta {
   font-size: 14px;
   font-size: .875rem; /* 14 / 16 = .875 */
-  margin-bottom: 1.2375em;
-}
+  margin-bottom: 1.2375em; }
 
 h5,
 .epsilon {
   font-size: 12px;
   font-size: .75rem; /* 12 / 16 = .75 */
-  margin-bottom: 1.4142857142857141em; /* measure( base font-size(18) * base line-height(1.65) ) / current font-size(21) = margin-bottom(1.4142857142857141) */
-}
+  margin-bottom: 1.4142857142857141em; /* measure( base font-size(18) * base line-height(1.65) ) / current font-size(21) = margin-bottom(1.4142857142857141) */ }
 
 h6,
 .zeta {
   font-size: 11px;
   font-size: .6875rem; /* 11 = 16 × .8675 */
-  margin-bottom: 1.65em; /* measure( base font-size(18) * base line-height(1.65) ) / current font-size(18) = margin-bottom(1.65) */
-}
+  margin-bottom: 1.65em; /* measure( base font-size(18) * base line-height(1.65) ) / current font-size(18) = margin-bottom(1.65) */ }
 
 p {
-  margin: auto auto 1.5em; /* bottom margin for paragraphs */
-}
+  margin: auto auto 1.5em; /* bottom margin for paragraphs */ }
 
 p + p {
   /* text-indent: 1.5em; indent subsequent paragraphs */
-  margin-top: -1.5em; /* no top margin on subsequent paragraphs */
-}
+  margin-top: -1.5em; /* no top margin on subsequent paragraphs */ }
 
 small {
-  font-size: 65%;
-}
+  font-size: 65%; }
