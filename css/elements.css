@@ -1,7 +1,7 @@
 /* Elements */
 
 /* Main Elements */
-html { font: normal 112.5%/1.65 serif; -webkit-font-smoothing: antialiased; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+html { font: normal 100%/1.65 serif; -webkit-font-smoothing: antialiased; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 body { -webkit-hyphens: auto; -moz-hyphens: auto; -ms-hyphens: auto; -o-hyphens: auto; hyphens: auto; word-wrap: break-word; }
 
 /* Add HTML5 elements */
@@ -21,7 +21,7 @@ p,
 select,
 textarea {
   color: #444;
-  font-family: 'Merriweather', Georgia, "Times New Roman", Times;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   text-decoration: none;
 }
 
