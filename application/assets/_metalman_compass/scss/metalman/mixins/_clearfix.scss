@@ -1,0 +1,12 @@
+/* We use this to do clear floats */
+@import "compass/utilities/general/clearfix";
+
+/* Implements pie-clearfix */
+@mixin clearfix {
+  @include pie-clearfix;
+}
+
+/* Short-hand version of clearfix. */
+@mixin cf{
+  @include clearfix;
+}

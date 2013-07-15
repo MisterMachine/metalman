@@ -1,0 +1,14 @@
+/* Box Sizing */
+*,
+input[type="search"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing:    border-box;
+  box-sizing:         border-box;
+  }
+
+/* Irish Box Model with Schepp box-sizing polyfill */
+.border-box { 
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; *behavior: url(/assets/js/boxsizing.htc);
+  }
