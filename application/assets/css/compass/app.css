@@ -1,25 +1,21 @@
-@charset "UTF-8";
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
 /* Variables */
-/* Colors */
-/* Action */
-/* line 4, ../../_metalman_compass/scss/_variables.scss */
-a {
-  color: #ef518b;
-}
-
 /* Theme */
-/* line 7, ../../_metalman_compass/scss/_variables.scss */
-h1, h2, h3, h4, h5, h6 {
-  color: #73bdc8;
-}
-
-/* Alert */
-/* { color: #fe6465; } */
-/* Warning */
-/* { color: #fca04f; } */
-/* Success */
-/* { color: #5cc94f; } */
+/* Colors */
+/* Typography */
+/* Sizes */
+/* 30 / 16 = 1.875 */
+/* 20 / 16 = 1.25 */
+/* 16 / 16 = 1 */
+/* 14 / 16 = .875 */
+/* 12 / 16 = .75 */
+/* 12 / 16 = .75 */
+/* Margins */
+/* bottom margin for paragraphs */
+/* no top margin on subsequent paragraphs */
+/* measure( base font-size(18) * base line-height(1.65) ) / current font-size(21) = margin-bottom(1.4142857142857141) */
+/* measure( base font-size(18) * base line-height(1.65) ) / current font-size(18) = margin-bottom(1.65) */
+/* Forms */
 /* Face */
 /* Import Fonts */
 /* Reset */
@@ -95,29 +91,39 @@ h6,
 p,
 select,
 textarea {
-  color: #444;
+  color: #444444;
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   text-decoration: none;
 }
 
 /* line 32, ../../_metalman_compass/scss/metalman/global/_elements.scss */
+h1, h2, h3, h4, h5, h6 {
+  color: #73bdc8;
+}
+
+/* line 33, ../../_metalman_compass/scss/metalman/global/_elements.scss */
+a {
+  color: #ef518b;
+}
+
+/* line 35, ../../_metalman_compass/scss/metalman/global/_elements.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 35, ../../_metalman_compass/scss/metalman/global/_elements.scss */
+/* line 38, ../../_metalman_compass/scss/metalman/global/_elements.scss */
 blockquote, q {
   quotes: none;
 }
 
-/* line 40, ../../_metalman_compass/scss/metalman/global/_elements.scss */
+/* line 43, ../../_metalman_compass/scss/metalman/global/_elements.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none;
 }
 
-/* line 45, ../../_metalman_compass/scss/metalman/global/_elements.scss */
+/* line 48, ../../_metalman_compass/scss/metalman/global/_elements.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -163,8 +169,7 @@ h1,
 .alpha {
   font-size: 30px;
   font-size: 1.875rem;
-  /* 30 / 16 = 1.875 */
-  margin-bottom: 0.495em;
+  margin: 0 0 0.495em;
 }
 
 /* line 36, ../../_metalman_compass/scss/metalman/global/_typography.scss */
@@ -172,8 +177,7 @@ h2,
 .beta {
   font-size: 20px;
   font-size: 1.25rem;
-  /* 20 / 16 = 1.25 */
-  margin-bottom: 0.61875em;
+  margin: 0 0 0.61875em;
 }
 
 /* line 43, ../../_metalman_compass/scss/metalman/global/_typography.scss */
@@ -181,51 +185,43 @@ h3,
 .gamma {
   font-size: 16px;
   font-size: 1rem;
-  /* 16 / 16 = 1 */
-  margin-bottom: 0.825em;
+  margin: 0 0 0.825em;
 }
 
 /* line 50, ../../_metalman_compass/scss/metalman/global/_typography.scss */
 h4,
 .delta {
   font-size: 14px;
-  font-size: .875rem;
-  /* 14 / 16 = .875 */
-  margin-bottom: 1.2375em;
+  font-size: 0.875rem;
+  margin: 0 0 1.2375em;
 }
 
 /* line 57, ../../_metalman_compass/scss/metalman/global/_typography.scss */
 h5,
 .epsilon {
   font-size: 12px;
-  font-size: .75rem;
-  /* 12 / 16 = .75 */
-  margin-bottom: 1.4142857142857141em;
-  /* measure( base font-size(18) * base line-height(1.65) ) / current font-size(21) = margin-bottom(1.4142857142857141) */
+  font-size: 0.75rem;
+  margin: 0 0 1.41429em;
 }
 
 /* line 64, ../../_metalman_compass/scss/metalman/global/_typography.scss */
 h6,
 .zeta {
-  font-size: 11px;
-  font-size: .6875rem;
-  /* 11 = 16 × .8675 */
-  margin-bottom: 1.65em;
-  /* measure( base font-size(18) * base line-height(1.65) ) / current font-size(18) = margin-bottom(1.65) */
+  font-size: 12px;
+  font-size: 0.75rem;
+  margin: 0 0 1.65em;
 }
 
 /* Text */
 /* line 72, ../../_metalman_compass/scss/metalman/global/_typography.scss */
 p {
   margin: auto auto 1.5em;
-  /* bottom margin for paragraphs */
 }
 
 /* line 75, ../../_metalman_compass/scss/metalman/global/_typography.scss */
 p + p {
   /* text-indent: 1.5em; indent subsequent paragraphs */
   margin-top: -1.5em;
-  /* no top margin on subsequent paragraphs */
 }
 
 /* line 79, ../../_metalman_compass/scss/metalman/global/_typography.scss */
@@ -234,7 +230,7 @@ small {
 }
 
 /* Anchors */
-/* line 85, ../../_metalman_compass/scss/metalman/global/_typography.scss */
+/* line 84, ../../_metalman_compass/scss/metalman/global/_typography.scss */
 a {
   text-decoration: none;
 }
@@ -326,10 +322,7 @@ input[type="submit"] {
   text-decoration: none;
   text-align: center;
   display: inline-block;
-  padding-top: 0.75em;
-  padding-right: 1.5em;
-  padding-bottom: 0.8125em;
-  padding-left: 1.5em;
+  padding: 0.75em 1.5em 0.8125em 1.5em;
   font-size: 1em;
   background-color: #2ba6cb;
   border-color: #2284a1;
@@ -337,7 +330,7 @@ input[type="submit"] {
 }
 
 /* Fieldset */
-/* line 70, ../../_metalman_compass/scss/metalman/global/_forms.scss */
+/* line 67, ../../_metalman_compass/scss/metalman/global/_forms.scss */
 fieldset {
   margin: 0 0 1em 0;
 }

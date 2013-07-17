@@ -24,10 +24,13 @@ h6,
 p,
 select,
 textarea {
-  color: #444;
+  color: $primary-color;
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   text-decoration: none; 
   }
+
+h1,h2,h3,h4,h5,h6 { color: $header-color; }
+a { color: $action-color; }
 
 ol, ul {
   list-style: none; }
