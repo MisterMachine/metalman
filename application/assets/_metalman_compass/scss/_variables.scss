@@ -12,6 +12,7 @@ $button-color:      #fff    !default;
 /* Typography */
 
 /* Sizes */
+/* convert to use em-calc */
 $size-normal:       foo;
 $size-small:        65%;
 $size-alpha-px:     30px;
@@ -28,6 +29,7 @@ $size-zeta-px:      12px;
 $size-zeta-rem:     .75rem; /* 12 / 16 = .75 */
 
 /* Margins */
+/* convert to use em-calc */
 $margin-normal:     auto auto 1.5em; /* bottom margin for paragraphs */
 $margin-subsequent: -1.5em; /* no top margin on subsequent paragraphs */
 $margin-alpha:      0 0 0.495em;
@@ -38,7 +40,7 @@ $margin-epsilon:    0 0 1.4142857142857141em; /* measure( base font-size(18) * b
 $margin-zeta:       0 0 1.65em; /* measure( base font-size(18) * base line-height(1.65) ) / current font-size(18) = margin-bottom(1.65) */ 
 
 /* Forms */
-
+/* convert to use em-calc */
 $input-background:  #2ba6cb !default;
 $input-border:      #2284a1 !default;
 $button-margin:     0 0 1.25em;
