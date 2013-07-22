@@ -24,7 +24,6 @@ $opposite-align:        right;
 
     $default-align:     right;
     $opposite-align:    left;
-
 }
 
 // =Body Font Variables
@@ -43,7 +42,7 @@ $success-color:     #5cc94f !default;
 $button-color:      #ffffff !default;
 
 /* Sizes */
-/* convert to use em-calc */
+/* create a rem-calc function for type only */
 $size-normal:       100%;
 $size-small:        65%;
 $size-alpha-px:     30px;
