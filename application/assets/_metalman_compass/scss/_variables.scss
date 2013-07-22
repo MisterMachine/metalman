@@ -27,10 +27,10 @@ $opposite-align:        right;
 }
 
 // =Body Font Variables
-$body-font-family: Georgia, Times, "Times New Roman", serif !default;
+$body-font-family: "HelveticaNeue", Helvetica, Arial, sans-serif !default;
 $body-font-size: emCalc( 14px ) !default;
 $body-line-height: emCalc( 23px ) !default;
-
+$body-font-weight: 300;
 
 /* Colors */
 $primary-color:     #444444 !default;
@@ -39,7 +39,8 @@ $action-color:      #ef518b !default;
 $alert-color:       #fe6465 !default;
 $warning-color:     #fca04f !default;
 $success-color:     #5cc94f !default;
-$inverse-color:      #ffffff !default;
+$brand-color:       #6b6da1 !default;
+$inverse-color:     #ffffff !default;
 
 /* Sizes */
 /* create a rem-calc function for type only */

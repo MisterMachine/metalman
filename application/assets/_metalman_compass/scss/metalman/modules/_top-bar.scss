@@ -9,8 +9,12 @@ $top-bar-bottom-margin: emCalc(10px) !default;
   
   h1 {
     color: $inverse-color;
-    padding-left: emCalc(10px);
+    padding-left: emCalc(38px);
     line-height: $top-bar-height;
+    
+    a {
+      left: emCalc(5px);
+    }
   }
   
   .tools {
@@ -19,6 +23,7 @@ $top-bar-bottom-margin: emCalc(10px) !default;
     top: 0;
     
       a {
+        font-weight: bold;
         color: $inverse-color;
       }
     

@@ -1,0 +1,42 @@
+.main.active {
+  left: 200px;
+  
+  nav[role=navigation] {
+    left: 0;
+  }
+}
+
+// Need rem value here to avoid resizing within H1
+.menu-link {
+  position: absolute;
+  left: 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  line-height: $top-bar-height;
+  background: $brand-color;
+  color: $inverse-color;
+} 
+
+nav[role=navigation] {
+  overflow: hidden;
+}
+
+.js nav[role=navigation] {
+  width: 200px;
+  height: 100%;
+  background: $brand-color;
+  position: absolute;
+  top: 50px;
+  left: -200px;
+    
+  li {
+    display: block; }
+
+  ul {
+    padding: 0; }
+
+  li a {
+    display: block;
+    padding: 1rem;
+    color: $inverse-color; }
+    }
