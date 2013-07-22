@@ -350,6 +350,31 @@ fieldset {
   padding: 0;
 }
 
+/* Modules */
+/* line 4, ../../_metalman_compass/scss/metalman/modules/_top-bar.scss */
+.top-bar {
+  height: 50px;
+  line-height: 50px;
+  margin-bottom: 0.71429em;
+  background: #73bdc8;
+}
+/* line 10, ../../_metalman_compass/scss/metalman/modules/_top-bar.scss */
+.top-bar h1 {
+  color: white;
+  padding-left: 0.71429em;
+  line-height: 50px;
+}
+/* line 16, ../../_metalman_compass/scss/metalman/modules/_top-bar.scss */
+.top-bar .tools {
+  position: absolute;
+  right: 0.71429em;
+  top: 0;
+}
+/* line 21, ../../_metalman_compass/scss/metalman/modules/_top-bar.scss */
+.top-bar .tools a {
+  color: white;
+}
+
 /* Breakpoints */
 /* Breakpoints */
 @media only screen and (max-width: 480px) {
