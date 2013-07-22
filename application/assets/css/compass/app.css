@@ -8,8 +8,6 @@
 /* convert to use em-calc */
 /* bottom margin for paragraphs */
 /* no top margin on subsequent paragraphs */
-/* measure( base font-size(18) * base line-height(1.65) ) / current font-size(21) = margin-bottom(1.4142857142857141) */
-/* measure( base font-size(18) * base line-height(1.65) ) / current font-size(18) = margin-bottom(1.65) */
 /* Forms */
 /* convert to use em-calc */
 /* Face */
@@ -76,7 +74,7 @@ summary {
 }
 
 /* Defaults */
-/* line 26, ../../_metalman_compass/scss/metalman/global/_elements.scss */
+/* line 27, ../../_metalman_compass/scss/metalman/global/_elements.scss */
 body,
 h1,
 h2,
@@ -86,42 +84,43 @@ h5,
 h6,
 p,
 select,
-textarea {
+textarea,
+input {
   color: #444444;
   font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   text-decoration: none;
 }
 
-/* line 33, ../../_metalman_compass/scss/metalman/global/_elements.scss */
+/* line 34, ../../_metalman_compass/scss/metalman/global/_elements.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #73bdc8;
 }
 
-/* line 34, ../../_metalman_compass/scss/metalman/global/_elements.scss */
+/* line 35, ../../_metalman_compass/scss/metalman/global/_elements.scss */
 a {
   color: #ef518b;
 }
 
-/* line 36, ../../_metalman_compass/scss/metalman/global/_elements.scss */
+/* line 37, ../../_metalman_compass/scss/metalman/global/_elements.scss */
 ol, ul, dl {
   list-style: none;
   margin: auto auto 1.5em;
 }
 
-/* line 40, ../../_metalman_compass/scss/metalman/global/_elements.scss */
+/* line 41, ../../_metalman_compass/scss/metalman/global/_elements.scss */
 blockquote, q {
   quotes: none;
 }
 
-/* line 45, ../../_metalman_compass/scss/metalman/global/_elements.scss */
+/* line 46, ../../_metalman_compass/scss/metalman/global/_elements.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none;
 }
 
-/* line 50, ../../_metalman_compass/scss/metalman/global/_elements.scss */
+/* line 51, ../../_metalman_compass/scss/metalman/global/_elements.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -139,7 +138,7 @@ table {
 /* line 5, ../../_metalman_compass/scss/metalman/global/_typography.scss */
 html {
   font-size: 16px;
-  line-height: 1.5em;
+  line-height: 1.625em;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -170,42 +169,42 @@ h1, h2, h3, h4, h5, h6 {
 h1,
 .alpha {
   font-size: 1.875rem;
-  margin: 0 0 0.495em;
+  margin: 0 0 0.6875em;
 }
 
 /* line 39, ../../_metalman_compass/scss/metalman/global/_typography.scss */
 h2,
 .beta {
   font-size: 1.25rem;
-  margin: 0 0 0.61875em;
+  margin: 0 0 0.75em;
 }
 
 /* line 45, ../../_metalman_compass/scss/metalman/global/_typography.scss */
 h3,
 .gamma {
   font-size: 1rem;
-  margin: 0 0 0.825em;
+  margin: 0 0 0.8125em;
 }
 
 /* line 51, ../../_metalman_compass/scss/metalman/global/_typography.scss */
 h4,
 .delta {
   font-size: 0.875rem;
-  margin: 0 0 1.2375em;
+  margin: 0 0 1.0625em;
 }
 
 /* line 57, ../../_metalman_compass/scss/metalman/global/_typography.scss */
 h5,
 .epsilon {
   font-size: 0.75rem;
-  margin: 0 0 1.41429em;
+  margin: 0 0 1.125em;
 }
 
 /* line 63, ../../_metalman_compass/scss/metalman/global/_typography.scss */
 h6,
 .zeta {
   font-size: 0.75rem;
-  margin: 0 0 1.65em;
+  margin: 0 0 1.25em;
 }
 
 /* Text */
@@ -280,16 +279,19 @@ input[type="time"],
 input[type="url"],
 textarea {
   width: 100%;
+  line-height: 1.625em;
+  padding: 0.375em 0.25em;
+  margin: auto auto 1.5em;
 }
 
 /* Buttons */
-/* line 27, ../../_metalman_compass/scss/metalman/global/_forms.scss */
+/* line 30, ../../_metalman_compass/scss/metalman/global/_forms.scss */
 button {
   width: auto;
   overflow: visible;
 }
 
-/* line 34, ../../_metalman_compass/scss/metalman/global/_forms.scss */
+/* line 37, ../../_metalman_compass/scss/metalman/global/_forms.scss */
 button,
 input,
 select,
@@ -300,7 +302,7 @@ textarea {
   *vertical-align: middle;
 }
 
-/* line 43, ../../_metalman_compass/scss/metalman/global/_forms.scss */
+/* line 46, ../../_metalman_compass/scss/metalman/global/_forms.scss */
 button,
 input[type="button"],
 input[type="reset"],
@@ -311,8 +313,8 @@ input[type="submit"] {
   border-style: solid;
   border-width: 1px;
   font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;
-  font-weight: bold;
-  line-height: 1;
+  font-weight: 600;
+  line-height: 1.625em;
   margin: 0 0 1.25em;
   position: relative;
   text-decoration: none;
@@ -320,13 +322,13 @@ input[type="submit"] {
   display: inline-block;
   padding: 0.75em 1.5em 0.8125em 1.5em;
   font-size: 1em;
-  background-color: #2ba6cb;
+  background-color: #6dbdc7;
   border-color: #2284a1;
   color: white;
 }
 
 /* Fieldset */
-/* line 67, ../../_metalman_compass/scss/metalman/global/_forms.scss */
+/* line 70, ../../_metalman_compass/scss/metalman/global/_forms.scss */
 fieldset {
   margin: 0 0 1em 0;
 }
@@ -342,7 +344,7 @@ fieldset {
 /* line 10, ../../_metalman_compass/scss/metalman/modules/_top-bar.scss */
 .top-bar h1 {
   color: white;
-  padding-left: 2.375em;
+  padding-left: 2.5em;
   line-height: 50px;
 }
 /* line 15, ../../_metalman_compass/scss/metalman/modules/_top-bar.scss */

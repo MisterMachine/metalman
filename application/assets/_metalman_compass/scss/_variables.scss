@@ -29,7 +29,7 @@ $opposite-align:        right;
 // =Body Font Variables
 $body-font-family: "HelveticaNeue", Helvetica, Arial, sans-serif !default;
 $body-font-size: emCalc( 16px ) !default;
-$body-line-height: emCalc( 24px ) !default;
+$body-line-height: emCalc( 26px ) !default;
 $body-font-weight: 300;
 
 /* Colors */
@@ -57,17 +57,18 @@ $size-zeta-rem:     remCalc( 12px );
 /* convert to use em-calc */
 $margin-normal:     auto auto emCalc( 24px ); /* bottom margin for paragraphs */
 $margin-subsequent: - emCalc( 24px ); /* no top margin on subsequent paragraphs */
-$margin-alpha:      0 0 0.495em;
-$margin-beta:       0 0 0.61875em;
-$margin-gamma:      0 0 0.825em;
-$margin-delta:      0 0 1.2375em;
-$margin-epsilon:    0 0 1.4142857142857141em; /* measure( base font-size(18) * base line-height(1.65) ) / current font-size(21) = margin-bottom(1.4142857142857141) */ 
-$margin-zeta:       0 0 1.65em; /* measure( base font-size(18) * base line-height(1.65) ) / current font-size(18) = margin-bottom(1.65) */ 
+$margin-alpha:      0 0 emCalc( 11px );
+$margin-beta:       0 0 emCalc( 12px );
+$margin-gamma:      0 0 emCalc( 13px );
+$margin-delta:      0 0 emCalc( 17px );
+$margin-epsilon:    0 0 emCalc( 18px ); 
+$margin-zeta:       0 0 emCalc( 20px );
 
 /* Forms */
 /* convert to use em-calc */
-$input-background:  #2ba6cb !default;
+$input-background:  #6dbdc7 !default;
 $input-border:      #2284a1 !default;
+$input-line-height: emCalc( 26px ) !default;
 $button-margin:     0 0 1.25em;
 $button-padding:    0.75em 1.5em 0.8125em 1.5em;
 $fieldset-margin:   0 0 1em 0;
