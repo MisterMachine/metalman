@@ -33,8 +33,9 @@ textarea {
 h1,h2,h3,h4,h5,h6 { color: $header-color; }
 a { color: $action-color; }
 
-ol, ul {
-  list-style: none; }
+ol, ul, dl {
+  list-style: none;
+  margin: $margin-normal; }
 
 blockquote, q {
   quotes: none; 

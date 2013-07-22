@@ -3,7 +3,7 @@
 /* Main Elements */
 /* optimize base font size w/ variable */
 html { 
-  font-size: $body-font-size;
+  font-size: $base-font-size;
   line-height: $body-line-height;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
@@ -31,42 +31,36 @@ h1,h2,h3,h4,h5,h6 {
 /* optimize font sizing so its only declared once */
 h1,
 .alpha {
-  font-size: $size-alpha-px;
   font-size: $size-alpha-rem;
   margin: $margin-alpha;
   }
 
 h2,
 .beta {
-  font-size: $size-beta-px;
   font-size: $size-beta-rem;
   margin: $margin-beta;
   }
 
 h3,
 .gamma {
-  font-size: $size-gamma-px;
   font-size: $size-gamma-rem;
   margin: $margin-gamma; 
   }
 
 h4,
 .delta {
-  font-size: $size-delta-px;
   font-size: $size-delta-rem;
   margin: $margin-delta;
   }
 
 h5,
 .epsilon {
-  font-size: $size-epsilon-px;
   font-size: $size-epsilon-rem;
   margin: $margin-epsilon;
   }
 
 h6,
 .zeta {
-  font-size: $size-zeta-px;
   font-size: $size-zeta-rem;
   margin: $margin-zeta;
   }

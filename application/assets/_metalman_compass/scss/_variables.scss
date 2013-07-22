@@ -2,10 +2,11 @@
 
 /* Typography */
 @import "metalman/functions/em_calc";
+@import "metalman/functions/rem_calc";
 
 // =Base Font 
 // Used in calculating em sizes
-$base-font-size:        14px !default;
+$base-font-size:        16px !default;
 
 // =Default Text direction
 $text-direction:        ltr !default;
@@ -13,7 +14,6 @@ $text-direction:        ltr !default;
 // Default Left and Right align directions
 $default-align:         left;
 $opposite-align:        right;
-
 // Determine text direction and alignments
 @if $text-direction == ltr {
 
@@ -28,8 +28,8 @@ $opposite-align:        right;
 
 // =Body Font Variables
 $body-font-family: "HelveticaNeue", Helvetica, Arial, sans-serif !default;
-$body-font-size: emCalc( 14px ) !default;
-$body-line-height: emCalc( 23px ) !default;
+$body-font-size: emCalc( 16px ) !default;
+$body-line-height: emCalc( 24px ) !default;
 $body-font-weight: 300;
 
 /* Colors */
@@ -46,23 +46,17 @@ $inverse-color:     #ffffff !default;
 /* create a rem-calc function for type only */
 $size-normal:       100%;
 $size-small:        65%;
-$size-alpha-px:     30px;
-$size-alpha-rem:    emCalc( 30px );
-$size-beta-px:      20px;
-$size-beta-rem:     emCalc( 20px );
-$size-gamma-px:     16px;
-$size-gamma-rem:    emCalc( 16px );
-$size-delta-px:     14px;
-$size-delta-rem:    emCalc( 14px );
-$size-epsilon-px:   12px;
-$size-epsilon-rem:  emCalc( 12px );
-$size-zeta-px:      12px;
-$size-zeta-rem:     emCalc( 12px );
+$size-alpha-rem:    remCalc( 30px );
+$size-beta-rem:     remCalc( 20px );
+$size-gamma-rem:    remCalc( 16px );
+$size-delta-rem:    remCalc( 14px );
+$size-epsilon-rem:  remCalc( 12px );
+$size-zeta-rem:     remCalc( 12px );
 
 /* Margins */
 /* convert to use em-calc */
-$margin-normal:     auto auto 1.5em; /* bottom margin for paragraphs */
-$margin-subsequent: -1.5em; /* no top margin on subsequent paragraphs */
+$margin-normal:     auto auto emCalc( 24px ); /* bottom margin for paragraphs */
+$margin-subsequent: - emCalc( 24px ); /* no top margin on subsequent paragraphs */
 $margin-alpha:      0 0 0.495em;
 $margin-beta:       0 0 0.61875em;
 $margin-gamma:      0 0 0.825em;
