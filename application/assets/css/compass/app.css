@@ -1,16 +1,9 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
 /* Variables */
 /* Theme */
-/* Colors */
 /* Typography */
+/* Colors */
 /* Sizes */
 /* convert to use em-calc */
-/* 30 / 16 = 1.875 */
-/* 20 / 16 = 1.25 */
-/* 16 / 16 = 1 */
-/* 14 / 16 = .875 */
-/* 12 / 16 = .75 */
-/* 12 / 16 = .75 */
 /* Margins */
 /* convert to use em-calc */
 /* bottom margin for paragraphs */
@@ -143,14 +136,15 @@ table {
 /* optimize base font size w/ variable */
 /* line 5, ../../_metalman_compass/scss/metalman/global/_typography.scss */
 html {
-  font: normal 100%/1.65 serif;
+  font-size: 1em;
+  line-height: 1.64286em;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
 
 /* optimize by eleminating prefixes */
-/* line 13, ../../_metalman_compass/scss/metalman/global/_typography.scss */
+/* line 14, ../../_metalman_compass/scss/metalman/global/_typography.scss */
 body {
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
@@ -161,7 +155,7 @@ body {
 }
 
 /* Headings */
-/* line 23, ../../_metalman_compass/scss/metalman/global/_typography.scss */
+/* line 24, ../../_metalman_compass/scss/metalman/global/_typography.scss */
 h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   margin-top: 0;
@@ -170,73 +164,73 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* optimize font sizing so its only declared once */
-/* line 32, ../../_metalman_compass/scss/metalman/global/_typography.scss */
+/* line 33, ../../_metalman_compass/scss/metalman/global/_typography.scss */
 h1,
 .alpha {
   font-size: 30px;
-  font-size: 1.875rem;
+  font-size: 2.14286em;
   margin: 0 0 0.495em;
 }
 
-/* line 39, ../../_metalman_compass/scss/metalman/global/_typography.scss */
+/* line 40, ../../_metalman_compass/scss/metalman/global/_typography.scss */
 h2,
 .beta {
   font-size: 20px;
-  font-size: 1.25rem;
+  font-size: 1.42857em;
   margin: 0 0 0.61875em;
 }
 
-/* line 46, ../../_metalman_compass/scss/metalman/global/_typography.scss */
+/* line 47, ../../_metalman_compass/scss/metalman/global/_typography.scss */
 h3,
 .gamma {
   font-size: 16px;
-  font-size: 1rem;
+  font-size: 1.14286em;
   margin: 0 0 0.825em;
 }
 
-/* line 53, ../../_metalman_compass/scss/metalman/global/_typography.scss */
+/* line 54, ../../_metalman_compass/scss/metalman/global/_typography.scss */
 h4,
 .delta {
   font-size: 14px;
-  font-size: 0.875rem;
+  font-size: 1em;
   margin: 0 0 1.2375em;
 }
 
-/* line 60, ../../_metalman_compass/scss/metalman/global/_typography.scss */
+/* line 61, ../../_metalman_compass/scss/metalman/global/_typography.scss */
 h5,
 .epsilon {
   font-size: 12px;
-  font-size: 0.75rem;
+  font-size: 0.85714em;
   margin: 0 0 1.41429em;
 }
 
-/* line 67, ../../_metalman_compass/scss/metalman/global/_typography.scss */
+/* line 68, ../../_metalman_compass/scss/metalman/global/_typography.scss */
 h6,
 .zeta {
   font-size: 12px;
-  font-size: 0.75rem;
+  font-size: 0.85714em;
   margin: 0 0 1.65em;
 }
 
 /* Text */
-/* line 75, ../../_metalman_compass/scss/metalman/global/_typography.scss */
+/* line 76, ../../_metalman_compass/scss/metalman/global/_typography.scss */
 p {
   margin: auto auto 1.5em;
 }
 
-/* line 78, ../../_metalman_compass/scss/metalman/global/_typography.scss */
+/* line 79, ../../_metalman_compass/scss/metalman/global/_typography.scss */
 p + p {
   /* text-indent: 1.5em; indent subsequent paragraphs */
   margin-top: -1.5em;
 }
 
-/* line 82, ../../_metalman_compass/scss/metalman/global/_typography.scss */
+/* line 83, ../../_metalman_compass/scss/metalman/global/_typography.scss */
 small {
   font-size: 65%;
 }
 
 /* Anchors */
-/* line 87, ../../_metalman_compass/scss/metalman/global/_typography.scss */
+/* line 88, ../../_metalman_compass/scss/metalman/global/_typography.scss */
 a {
   text-decoration: none;
 }
