@@ -9,6 +9,7 @@ html {
   -ms-text-size-adjust: 100%;
   }
 
+/* optimize by eleminating prefixes */
 body { 
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
@@ -26,6 +27,7 @@ h1,h2,h3,h4,h5,h6 {
   text-rendering: optimizeLegibility;
   }
 
+/* optimize font sizing so its only declared once */
 h1,
 .alpha {
   font-size: $size-alpha-px;
