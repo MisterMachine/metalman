@@ -53,4 +53,20 @@ $top-bar-bottom-margin: emCalc(10px) !default;
           }
         }
       }
-  } 
+  }
+  
+.inverse {
+   background: $header-color;
+   text-align: center;
+
+  .top-bar {
+    background: $inverse-color;
+    
+    h1 {
+      color: $header-color;
+      text-transform: uppercase;
+      padding-left: 0;
+    }
+    
+  }
+}   

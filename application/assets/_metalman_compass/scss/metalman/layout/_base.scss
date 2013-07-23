@@ -1,4 +1,5 @@
 $base-margin: emCalc(10px) !default;
+$inset-margin: 0 emCalc(30px) !default;
 
 .main {
     margin-top: $base-margin;
@@ -11,3 +12,15 @@ $base-margin: emCalc(10px) !default;
     margin-right: $base-margin;
     padding: 0;
     }
+    
+.center {
+    text-align: center;
+    }
+ 
+.inverse {
+  
+  .row {
+    margin: $inset-margin;
+  }
+  
+}        

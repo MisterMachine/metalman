@@ -23,7 +23,6 @@ textarea {
   width: 100%;
   line-height: $input-line-height;
   padding: emCalc( 6px ) emCalc( 4px );
-  margin: $margin-normal;
 }
 
 /* Buttons */
@@ -67,7 +66,70 @@ input[type="submit"] {
   background-color: $input-background;
   border-color: $input-background;
   color: $inverse-color; 
+  
+  &.disabled {
+    background-color: rgba(245,84,140,0.3);
+    border-color: rgba(245,84,140,0.1);
+  }
+  
   }
 
 /* Fieldset */ 
 fieldset { margin: $fieldset-margin; }
+
+  .inset { 
+  
+    fieldset {
+      position: relative;
+      } 
+    
+    label { 
+      position: absolute;
+      top: emCalc( 10px );
+      left:  emCalc( 10px );
+      color: #999;
+     }
+    
+  }
+
+
+/* Inverse */ 
+.inverse {
+  
+  label {
+  text-align: left;
+  }
+  
+  button, 
+  input[type="button"], 
+  input[type="reset"], 
+  input[type="submit"],
+  label {
+    font-size: 75%;
+    text-transform: uppercase;
+  }
+  
+  input[type="text"], 
+  input[type="password"], 
+  input[type="date"], 
+  input[type="datetime"], 
+  input[type="datetime-local"], 
+  input[type="month"], 
+  input[type="week"], 
+  input[type="email"], 
+  input[type="number"], 
+  input[type="search"], 
+  input[type="tel"], 
+  input[type="time"], 
+  input[type="url"] {
+    padding-left: emCalc( 90px );
+  }
+  
+  button, 
+  input[type="button"], 
+  input[type="reset"], 
+  input[type="submit"] {
+    width: 100%;
+    line-height: emCalc( 40px );
+  }
+}
