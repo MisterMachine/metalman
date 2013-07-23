@@ -66,9 +66,10 @@ $margin-zeta:       0 0 emCalc( 20px );
 
 /* Forms */
 /* convert to use em-calc */
-$input-background:  #6dbdc7 !default;
-$input-border:      #2284a1 !default;
+$input-background:  #f5548c !default;
+$input-border:      #f5548c !default;
 $input-line-height: emCalc( 24px ) !default;
+
 $button-margin:     0 0 emCalc( 18px );
 $button-padding:    emCalc( 10px ) emCalc( 22px );
 $fieldset-margin:   0 0 emCalc( 14px ) 0;
