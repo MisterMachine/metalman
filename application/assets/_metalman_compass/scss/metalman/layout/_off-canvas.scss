@@ -6,17 +6,6 @@
   }
 }
 
-// Need rem value here to avoid resizing within H1
-.menu-link {
-  position: absolute;
-  left: 0;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  line-height: $top-bar-height;
-  background: $brand-color;
-  color: $inverse-color;
-} 
-
 nav[role=navigation] {
   overflow: hidden;
 }
