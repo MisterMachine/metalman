@@ -40,3 +40,4 @@ nbproject
 node_modules
 dist
 .rvmrc
+application/assets/css/compass
