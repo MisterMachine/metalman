@@ -1,8 +1,6 @@
 $top-bar-height: emCalc(50px) !default;
 $top-bar-bottom-margin: emCalc(10px) !default;
 
-
-
 .top-bar {
   height: $top-bar-height;
   line-height: $top-bar-height;
@@ -27,9 +25,9 @@ $top-bar-bottom-margin: emCalc(10px) !default;
       line-height: 100%;
       background: $brand-color;
       color: $inverse-color;
-  } 
+      } 
 
-  }
+    }
   
   .tools {
     position: absolute;
@@ -52,9 +50,7 @@ $top-bar-bottom-margin: emCalc(10px) !default;
           border-radius: 20px;
           -webkit-box-shadow: 0 2px 2px #988d25; 
           box-shadow: 0 2px 2px #988d25; 
+          }
         }
-      
       }
-    
-  }
-}
+  } 
