@@ -21,13 +21,24 @@
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
-        <section class="main">
-            <div class="line">
+        <header class="top-bar">
+          <h1 class="logo">
+            <a class="button menu-link" href="#">M</a>
+            Metalman
+          </h1>
+          
+          <div class="tools">
+            <a class="icon icon-tool" href="#">12 <i class="coin">$</i></a>
+          </div>
+        </header>
+        
+        <section id="container" class="main">
+            <div class="row">
                 <!-- Add your site or application content here -->
-                <p>Hello Mister Machine! This is Metal Man.</p>
+                <p>Hello! This is Metal Man.</p>
             </div>
 
-            <div class="line">
+            <div class="row">
             <!-- Headers -->
                 <h1>Heading 1 with <small>small text</small> and a <a href="#">link</a></h1>
                 <h2>Heading 2 with <small>small text</small> and a <a href="#">link</a></h2>
@@ -268,7 +279,7 @@
                 </form>
             </div>
 
-            <div class="line">
+            <div class="row">
                 <!-- Article -->
                 <article>
                     <header>
@@ -354,6 +365,19 @@
 
                 </form>
             </div>
+            
+          <nav class="side-menu" role="navigation">
+            <ul>
+              <li><a href="#"><i>A</i> Tommy Smith</a></li>
+              <li><a href="#"><i>B</i> My Stuff</a></li>
+              <li><a href="#"><i>C</i> Store</a></li>
+              <li><a href="#"><i>D</i> My Account</a></li>
+            </ul>
+          </nav>
+            
         </section>
+
+        <script src="http://code.jquery.com/jquery.js"></script>
+        <script src="assets/js/components/nav.js"></script><!-- Off Canvas -->
     </body>
 </html>

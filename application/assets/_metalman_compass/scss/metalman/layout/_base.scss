@@ -1,11 +1,13 @@
+$base-margin: emCalc(10px) !default;
+
 .main {
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
+    margin-top: $base-margin;
+    margin-bottom: $base-margin;
     }
 
-.line {
+.row {
     width: auto;
-    margin-left: 1.5em;
-    margin-right: 1.5em;
+    margin-left: $base-margin;
+    margin-right: $base-margin;
     padding: 0;
     }

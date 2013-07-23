@@ -1,49 +1,75 @@
 /* Theme */
 
+/* Typography */
+@import "metalman/functions/em_calc";
+@import "metalman/functions/rem_calc";
+
+// =Base Font 
+// Used in calculating em sizes
+$base-font-size:        16px !default;
+
+// =Default Text direction
+$text-direction:        ltr !default;
+
+// Default Left and Right align directions
+$default-align:         left;
+$opposite-align:        right;
+// Determine text direction and alignments
+@if $text-direction == ltr {
+
+    $default-align:     left;
+    $opposite-align:    right;
+
+} @else {
+
+    $default-align:     right;
+    $opposite-align:    left;
+}
+
+// =Body Font Variables
+$body-font-family: "HelveticaNeue", Helvetica, Arial, sans-serif !default;
+$body-font-size: emCalc( 16px ) !default;
+$body-line-height: emCalc( 26px ) !default;
+$body-font-weight: 300;
+
 /* Colors */
-$primary-color:     #444    !default;
+$primary-color:     #444444 !default;
 $header-color:      #73bdc8 !default;
 $action-color:      #ef518b !default;
 $alert-color:       #fe6465 !default;
 $warning-color:     #fca04f !default;
 $success-color:     #5cc94f !default;
-$button-color:      #fff    !default;
-
-/* Typography */
+$brand-color:       #6b6da1 !default;
+$inverse-color:     #ffffff !default;
 
 /* Sizes */
-/* convert to use em-calc */
-$size-normal:       foo;
+/* create a rem-calc function for type only */
+$size-normal:       100%;
 $size-small:        65%;
-$size-alpha-px:     30px;
-$size-alpha-rem:    1.875rem; /* 30 / 16 = 1.875 */
-$size-beta-px:      20px;
-$size-beta-rem:     1.25rem; /* 20 / 16 = 1.25 */
-$size-gamma-px:     16px;
-$size-gamma-rem:    1rem; /* 16 / 16 = 1 */
-$size-delta-px:     14px;
-$size-delta-rem:    .875rem; /* 14 / 16 = .875 */
-$size-epsilon-px:   12px;
-$size-epsilon-rem:  .75rem; /* 12 / 16 = .75 */
-$size-zeta-px:      12px;
-$size-zeta-rem:     .75rem; /* 12 / 16 = .75 */
+$size-alpha-rem:    remCalc( 30px );
+$size-beta-rem:     remCalc( 20px );
+$size-gamma-rem:    remCalc( 18px );
+$size-delta-rem:    remCalc( 16px );
+$size-epsilon-rem:  remCalc( 14px );
+$size-zeta-rem:     remCalc( 12px );
 
 /* Margins */
 /* convert to use em-calc */
-$margin-normal:     auto auto 1.5em; /* bottom margin for paragraphs */
-$margin-subsequent: -1.5em; /* no top margin on subsequent paragraphs */
-$margin-alpha:      0 0 0.495em;
-$margin-beta:       0 0 0.61875em;
-$margin-gamma:      0 0 0.825em;
-$margin-delta:      0 0 1.2375em;
-$margin-epsilon:    0 0 1.4142857142857141em; /* measure( base font-size(18) * base line-height(1.65) ) / current font-size(21) = margin-bottom(1.4142857142857141) */ 
-$margin-zeta:       0 0 1.65em; /* measure( base font-size(18) * base line-height(1.65) ) / current font-size(18) = margin-bottom(1.65) */ 
+$margin-normal:     auto auto emCalc( 24px ); /* bottom margin for paragraphs */
+$margin-subsequent: - emCalc( 24px ); /* no top margin on subsequent paragraphs */
+$margin-alpha:      0 0 emCalc( 11px );
+$margin-beta:       0 0 emCalc( 12px );
+$margin-gamma:      0 0 emCalc( 13px );
+$margin-delta:      0 0 emCalc( 17px );
+$margin-epsilon:    0 0 emCalc( 18px ); 
+$margin-zeta:       0 0 emCalc( 20px );
 
 /* Forms */
 /* convert to use em-calc */
-$input-background:  #2ba6cb !default;
-$input-border:      #2284a1 !default;
-$button-margin:     0 0 1.25em;
-$button-padding:    0.75em 1.5em 0.8125em 1.5em;
-$fieldset-margin:   0 0 1em 0;
+$input-background:  #f5548c !default;
+$input-border:      #f5548c !default;
+$input-line-height: emCalc( 24px ) !default;
 
+$button-margin:     0 0 emCalc( 18px );
+$button-padding:    emCalc( 10px ) emCalc( 22px );
+$fieldset-margin:   0 0 emCalc( 14px ) 0;

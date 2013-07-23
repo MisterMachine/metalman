@@ -24,8 +24,12 @@
 /* Form */
 @import "metalman/global/forms";
 
+/* Modules */
+@import "metalman/modules/all";
+
 /* Layout */
 @import "metalman/layout/base";
+@import "metalman/layout/off-canvas";
 
 /* Breakpoints */
 @import "metalman/global/breakpoints";

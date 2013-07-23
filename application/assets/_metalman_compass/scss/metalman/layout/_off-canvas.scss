@@ -1,0 +1,54 @@
+.main.active {
+  left: 250px;
+  
+  nav[role=navigation] {
+    left: 0;
+  }
+}
+
+nav[role=navigation] {
+  overflow: hidden;
+}
+
+.js nav[role=navigation] {
+  width: 250px;
+  height: 100%;
+  background: $brand-color;
+  position: absolute;
+  top: emCalc(50px);
+  left: -250px;
+  
+   -webkit-box-shadow: inset -3px -3px 0 3px rgba(0,0,0,0.2); 
+   box-shadow: inset -3px -3px 0 3px rgba(0,0,0,0.2);
+  
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+    
+  li {
+    display: block;
+     }
+
+  ul {
+    padding: 0; 
+    }
+
+  li a {
+    display: block;
+    color: $inverse-color;
+    border-bottom: 1px solid #616193; 
+    line-height: emCalc(50px);
+    
+    i {
+      background-color: #7b7caa;
+      text-align: center;
+      margin-right: emCalc(10px);
+      
+      display: inline-block;
+      width: emCalc( 50px );
+      height: emCalc( 50px );
+      line-height: emCalc( 50px );
+
+      }
+    }
+    
+}
