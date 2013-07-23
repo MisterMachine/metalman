@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "zeal"
+AuthUserFile "/home/secure/apasswords"
+Require valid-user
+
+# Add support for .htc resources
+AddType text/x-component .htc
