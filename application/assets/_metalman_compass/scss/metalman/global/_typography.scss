@@ -3,8 +3,8 @@
 /* Main Elements */
 /* optimize base font size w/ variable */
 html { 
-  font: normal 100%/1.65 serif;
-  -webkit-font-smoothing: antialiased;
+  font: normal 100%/1.65 serif; /* reference typeplate.com to see how they define base font size for sass */
+  -webkit-font-smoothing: antialiased; /* check out mixin or partial for getting rid of browsers prefixes */
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   }
