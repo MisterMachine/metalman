@@ -27,10 +27,10 @@ $opposite-align:        right;
 }
 
 // =Body Font Variables
-$body-font-family: "HelveticaNeue", Helvetica, Arial, sans-serif !default;
-$body-font-size: emCalc( 16px ) !default;
-$body-line-height: emCalc( 26px ) !default;
-$body-font-weight: 300;
+$body-font-family:  "HelveticaNeue", Helvetica, Arial, sans-serif !default;
+$body-font-size:    emCalc( 16px ) !default;
+$body-line-height:  emCalc( 26px ) !default;
+$body-font-weight:  300;
 
 /* Colors */
 $primary-color:     #444444 !default;
@@ -46,7 +46,7 @@ $inverse-color:     #ffffff !default;
 /* create a rem-calc function for type only */
 $size-normal:       100%;
 $size-small:        65%;
-$size-alpha-rem:    remCalc( 30px );
+$size-alpha-rem:    remCalc( 36px );
 $size-beta-rem:     remCalc( 20px );
 $size-gamma-rem:    remCalc( 18px );
 $size-delta-rem:    remCalc( 16px );
