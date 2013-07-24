@@ -29,6 +29,8 @@
 }
 
 	.inverse .top-bar h1 {
+	  font-size: 1.5em;
+	  line-height: 2.12em; 
 	  color: #73bdc8;
 	  text-transform: uppercase;
 	  padding-left: 0;
@@ -47,26 +49,15 @@
   text-transform: uppercase;
 }
 
-.inverse input[type="text"],
-.inverse input[type="password"],
-.inverse input[type="date"],
-.inverse input[type="datetime"],
-.inverse input[type="datetime-local"],
-.inverse input[type="month"],
-.inverse input[type="week"],
-.inverse input[type="email"],
-.inverse input[type="number"],
-.inverse input[type="search"],
-.inverse input[type="tel"],
-.inverse input[type="time"],
-.inverse input[type="url"] {
-  padding-left: 5.625em;
-}
-
 .inverse button,
 .inverse input[type="button"],
 .inverse input[type="reset"],
 .inverse input[type="submit"] {
   width: 100%;
   line-height: 2.5em;
+}
+
+.inverse .inset label {
+  top: 1em;
+  left: 1em;
 }

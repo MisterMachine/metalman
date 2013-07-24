@@ -140,7 +140,6 @@ button[disabled].secondary:focus,
 	cursor: default;
 }
 
-	
 /* Fieldset */
 fieldset {
   margin: 0 0 0.875em 0;
@@ -152,7 +151,24 @@ fieldset {
 
 .inset label {
   position: absolute;
-  top: 0.625em;
-  left: 0.625em;
+  top: 0.5em;
+  left: 0.5em;
   color: #999;
 }
+
+.inset input[type="text"],
+.inset input[type="password"],
+.inset input[type="date"],
+.inset input[type="datetime"],
+.inset input[type="datetime-local"],
+.inset input[type="month"],
+.inset input[type="week"],
+.inset input[type="email"],
+.inset input[type="number"],
+.inset input[type="search"],
+.inset input[type="tel"],
+.inset input[type="time"],
+.inset input[type="url"] {
+  padding-left: 6em;
+}
+
