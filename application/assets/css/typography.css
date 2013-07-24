@@ -27,14 +27,14 @@ h1,h2,h3,h4,h5,h6 {
 h1,
 .alpha {
   font-size: 36px;
-  font-size: 1.875rem; /* 36 / 16 = 1.875 */
+  font-size: 2.25rem; /* 36 / 16 = 2.25 */
   margin-bottom: 0.495em; 
   }
 
 h2,
 .beta {
-  font-size: 20px;
-  font-size: 1.25rem; /* 20 / 16 = 1.25 */
+  font-size: 24px;
+  font-size: 1.5rem; /* 24 / 16 = 1.5 */
   margin-bottom: 0.61875em; 
   }
 
