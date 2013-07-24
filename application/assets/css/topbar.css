@@ -3,7 +3,7 @@
 .top-bar {
   height: 3.125em;
   line-height: 3.125em;
-  margin-bottom: 0.625em;
+  margin-bottom: 0;
   background: #73bdc8;
 }
 
@@ -12,6 +12,7 @@
 	  color: white;
 	  padding-left: 3rem;
 	  line-height: 2.8125em;
+	  margin-bottom: 0;
 	}
 	
 		.top-bar h1 .menu-link,

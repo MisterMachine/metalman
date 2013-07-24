@@ -142,19 +142,37 @@ button[disabled].secondary:focus,
 }
 
 /* Fieldset */
-fieldset {
+fieldset,
+.field {
   margin: 0 0 0.875em 0;
 }
 
-.inset fieldset {
+.legend {
+	padding: 0.5em 0;
+}
+
+fieldset p {
+	text-align: left;
+	font-size: 85%;
+}
+
+.inset fieldset,
+.inset .field {
   position: relative;
 }
 
-.inset label {
+.inset label,
+.inset span {
   position: absolute;
   top: 0.5em;
   left: 0.5em;
   color: #999;
+}
+
+.inset span.status,
+.inset span.strength {
+	left: auto;
+	right: 1em;	
 }
 
 .inset input[type="text"],

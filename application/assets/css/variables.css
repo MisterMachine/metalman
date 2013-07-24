@@ -17,6 +17,9 @@ a { color: #ef518b; }
 /* Theme */
 h1,h2,h3,h4,h5,h6 { color: #73bdc8; }
 
+.attention { background: #6cbdc7; }
+.blank { background: white; }
+
 /* Alert */
 { color: #fe6465; }
 
