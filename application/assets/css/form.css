@@ -81,7 +81,7 @@ input[type="submit"]:focus {
 	input[type="reset"].disabled,
 	input[type="submit"].disabled {
 	  background-color: rgba(245, 84, 140, 0.3);
-	  border-color: rgba(245, 84, 140, 0.1);
+	  border-color: rgba(245, 84, 140, 0);
 	}
 
 button.disabled:hover, 
