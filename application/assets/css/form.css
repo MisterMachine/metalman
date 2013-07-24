@@ -63,7 +63,19 @@ input[type="submit"] {
   color: white;
 }
 
+button:hover, 
+button:focus, 
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="reset"]:hover,
+input[type="reset"]:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+	border-bottom: 2px solid #d75381;
+}
+
 	button.disabled,
+	button[disabled],
 	input[type="button"].disabled,
 	input[type="reset"].disabled,
 	input[type="submit"].disabled {
@@ -71,6 +83,64 @@ input[type="submit"] {
 	  border-color: rgba(245, 84, 140, 0.1);
 	}
 
+button.disabled:hover, 
+button.disabled:focus, 
+button[disabled]:hover, 
+button[disabled]:focus, 
+.button.disabled:hover, 
+.button.disabled:focus, 
+.button[disabled]:hover, 
+.button[disabled]:focus,
+input[type="button"].disabled:hover,
+input[type="button"].disabled:focus,
+input[type="reset"].disabled:hover,
+input[type="button"].disabled:focus,
+input[type="submit"].disabled:hover,
+input[type="button"].disabled:focus {
+	cursor: default;
+}
+
+button.secondary,
+input[type="button"].secondary,
+input[type="reset"].secondary,
+input[type="submit"].secondary {
+	background-color: white;
+	border-color: #f5548c;
+	color: #f5548c;
+}
+
+button.secondary:hover, 
+button.secondary:focus, 
+input[type="button"].secondary:hover,
+input[type="button"].secondary:focus,
+input[type="reset"].secondary:hover,
+input[type="reset"].secondary:focus,
+input[type="submit"].secondary:hover,
+input[type="submit"].secondary:focus {
+	background-color: #ffeff4;
+}
+
+button.secondary.disabled,
+input[type="button"].secondary.disabled,
+input[type="reset"].secondary.disabled,
+input[type="submit"].secondary.disabled {
+	border-color: #bbb;
+	color: #bbb;
+}
+
+button.secondary.disabled:hover, 
+button.secondary.disabled:focus, 
+button[disabled].secondary:hover, 
+button[disabled].secondary:focus, 
+.button.secondary.disabled:hover, 
+.button.secondary.disabled:focus, 
+.button[disabled].secondary:hover, 
+.button[disabled].secondary:focus {
+	background: white;
+	cursor: default;
+}
+
+	
 /* Fieldset */
 fieldset {
   margin: 0 0 0.875em 0;
