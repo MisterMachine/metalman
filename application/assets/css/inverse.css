@@ -1,0 +1,72 @@
+/* Inverse */
+
+.inverse {
+  background: #73bdc8;
+  text-align: center;
+}
+
+.inverse h1, 
+.inverse h2, 
+.inverse h3, 
+.inverse h4, 
+.inverse h5, 
+.inverse h6 {
+  text-transform: uppercase;
+}
+
+.inverse h1, 
+.inverse h2, 
+.inverse h3, 
+.inverse h4, 
+.inverse h5, 
+.inverse h6,
+.inverse p {
+  color: white;
+}
+
+.inverse .top-bar {
+  background: white;
+}
+
+	.inverse .top-bar h1 {
+	  color: #73bdc8;
+	  text-transform: uppercase;
+	  padding-left: 0;
+	}
+
+.inverse label {
+  text-align: left;
+}
+
+.inverse button,
+.inverse input[type="button"],
+.inverse input[type="reset"],
+.inverse input[type="submit"],
+.inverse label {
+  font-size: 75%;
+  text-transform: uppercase;
+}
+
+.inverse input[type="text"],
+.inverse input[type="password"],
+.inverse input[type="date"],
+.inverse input[type="datetime"],
+.inverse input[type="datetime-local"],
+.inverse input[type="month"],
+.inverse input[type="week"],
+.inverse input[type="email"],
+.inverse input[type="number"],
+.inverse input[type="search"],
+.inverse input[type="tel"],
+.inverse input[type="time"],
+.inverse input[type="url"] {
+  padding-left: 5.625em;
+}
+
+.inverse button,
+.inverse input[type="button"],
+.inverse input[type="reset"],
+.inverse input[type="submit"] {
+  width: 100%;
+  line-height: 2.5em;
+}

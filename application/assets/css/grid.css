@@ -1,6 +1,6 @@
 /* Class Grid based on OOCSS */
 
-.line,
+.row,
 .lastUnit { 
     overflow: hidden; 
     *overflow: visible; 

@@ -1,0 +1,49 @@
+.main.active {
+  left: 250px;
+}
+
+.main.active nav[role=navigation] {
+  left: 0;
+}
+
+nav[role=navigation] {
+  overflow: hidden;
+}
+
+.js nav[role=navigation] {
+  width: 250px;
+  height: 100%;
+  background: #6b6da1;
+  position: absolute;
+  top: 3.125em;
+  left: -250px;
+  -webkit-box-shadow: inset -3px -3px 0 3px rgba(0, 0, 0, 0.2);
+  box-shadow: inset -3px -3px 0 3px rgba(0, 0, 0, 0.2);
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+	.js nav[role=navigation] ul {
+	  padding: 0;
+	}
+	
+		.js nav[role=navigation] li {
+		  display: block;
+		}
+		
+			.js nav[role=navigation] li a {
+			  display: block;
+			  color: white;
+			  border-bottom: 1px solid #616193;
+			  line-height: 3.125em;
+			}
+			
+				.js nav[role=navigation] li a i {
+				  background-color: #7b7caa;
+				  text-align: center;
+				  margin-right: 0.625em;
+				  display: inline-block;
+				  width: 3.125em;
+				  height: 3.125em;
+				  line-height: 3.125em;
+				}

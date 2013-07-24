@@ -13,9 +13,9 @@
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
         <!-- CSS -->
-        <link rel="stylesheet" href="assets/css/style.css">
+        <!--link rel="stylesheet" href="assets/css/style.css"-->
         <!-- Compass -->
-        <!--link rel="stylesheet" href="assets/css/compass/app.css"-->
+        <link rel="stylesheet" href="assets/css/compass/app.css">
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -56,59 +56,19 @@
                     <h5>Heading 5 (in article) with <small>small text</small> and a <a href="#">link</a></h5>
                     <h6>Heading 6 (in article) with <small>small text</small> and a <a href="#">link</a></h6>
                 </article>
-				
-				<!-- Form: Samples -->
-                <form action="/">
-                    <fieldset>
-                        <label for="name">Name</label>
-                        <input type="text" id="name" class="form-text" />
-                        <p class="form-help">This is help text under the form field.</p>
-                    </fieldset>
 
-                    <fieldset>
-                        <label for="email">Email</label>
-                        <input type="email" id="email" class="form-text" />
-                    </fieldset>
+                <!-- List: Definition -->
+                <dl>
+                  <dt>Description name</dt>
+                  <dd>Description value</dd>
+                  <dt>Description name</dt>
+                  <dd>Description value</dd>
+                  <dd>Description value</dd>
+                  <dt>Description name</dt>
+                  <dt>Description name</dt>
+                  <dd>Description value</dd>
+                </dl>
 
-                    <fieldset class="form-actions">
-                        <input type="submit" value="Submit" />
-                    </fieldset>
-                </form>
-				
-				 <form action="/">
-                    <fieldset>
-                        <p><input type="button" value="Input type button"></p>
-                        <p><input type="reset" value="Input type reset"></p>
-                        <p><input type="submit" value="Input type submit"></p>
-                        <p><input type="submit" value="Input type submit disabled" class="disabled" disabled></p>
-                        <p><button type="button">Button type button</button></p>
-                        <p><button type="reset">Button type reset</button></p>
-                        <p><button type="submit">Button type submit</button></p>
-                        <p><button type="button" class="disabled" disabled>Button type button disabled</button></p>
-                        <p><button>Button</button></p>
-                    </fieldset>
-                </form>	
-				
-				<!-- List: Unordered -->
-                <ul>
-                    <li>list item 1</li>
-                    <li>list item 1
-                        <ul>
-                            <li>list item 2</li>
-                            <li>list item 2
-                                <ul>
-                                    <li>list item 3</li>
-                                    <li>list item 3</li>
-                                </ul>
-                            </li>
-                            <li>list item 2</li>
-                            <li>list item 2</li>
-                        </ul>
-                    </li>
-                    <li>list item 1</li>
-                    <li>list item 1</li>
-                </ul>
-					
                 <!-- List: Ordered -->
                 <ol>
                     <li>list item 1</li>
@@ -128,15 +88,26 @@
                     <li>list item 1</li>
                     <li>list item 1</li>
                 </ol>
-       
-                <!-- List: Definition -->
-                <dl>
-                  <dt>Description name</dt>
-                  <dd>Description value</dd>
-                  <dt>Description name</dt>
-                  <dd>Description value</dd>
-                  <dd>Description value</dd>
-                </dl>
+
+                <!-- List: Unordered -->
+                <ul>
+                    <li>list item 1</li>
+                    <li>list item 1
+                        <ul>
+                            <li>list item 2</li>
+                            <li>list item 2
+                                <ul>
+                                    <li>list item 3</li>
+                                    <li>list item 3</li>
+                                </ul>
+                            </li>
+                            <li>list item 2</li>
+                            <li>list item 2</li>
+                        </ul>
+                    </li>
+                    <li>list item 1</li>
+                    <li>list item 1</li>
+                </ul>
 
                 <!-- Table -->
                 <h3>Default Table</h3>
@@ -251,6 +222,20 @@
                 </figure>
 
                 <!-- Forms -->
+                <form action="/">
+                    <fieldset>
+                        <p><input type="button" value="Input type button"></p>
+                        <p><input type="reset" value="Input type reset"></p>
+                        <p><input type="submit" value="Input type submit"></p>
+                        <p><input type="submit" value="Input type submit disabled" class="disabled" disabled></p>
+                        <p><button type="button">Button type button</button></p>
+                        <p><button type="reset">Button type reset</button></p>
+                        <p><button type="submit">Button type submit</button></p>
+                        <p><button type="button" class="disabled" disabled>Button type button disabled</button></p>
+                        <p><button>Button</button></p>
+                    </fieldset>
+                </form>
+
                 <form>
                     <fieldset>
                     <div><label>Text input</label> <input type="text"></div>
@@ -322,6 +307,24 @@
                         </a>
                     </li>
                 </ol>
+
+                <!-- Form: Samples -->
+                <form action="/">
+                    <fieldset>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" class="form-text" />
+                        <p class="form-help">This is help text under the form field.</p>
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" class="form-text" />
+                    </fieldset>
+
+                    <fieldset class="form-actions">
+                        <input type="submit" value="Submit" />
+                    </fieldset>
+                </form>
 
                 <form action="/">
                     <fieldset>

@@ -1,11 +1,15 @@
 .main {
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
-    }
+  margin-top: 0.625em;
+  margin-bottom: 0.625em;
+  }
 
-.line {
-    width: auto;
-    margin-left: 1.5em;
-    margin-right: 1.5em;
-    padding: 0;
-    }
+.row {
+  width: auto;
+  margin-left: 0.625em;
+  margin-right: 0.625em;
+  padding: 0;
+  }
+  
+.center {
+  text-align: center;
+  }  
