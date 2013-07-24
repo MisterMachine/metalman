@@ -1,3 +1,14 @@
+/* Typography */
+
+html {
+	font-size: 16px;
+	line-height: 1.625em;	
+	}
+
+body {
+	font-family: "HelveticaNeue", Helvetica, Arial, sans-serif; 
+	}
+
 /* Colors */
 
 /* Action */

@@ -14,15 +14,30 @@
 	  line-height: 2.8125em;
 	}
 	
-		.top-bar h1 .menu-link {
+		.top-bar h1 .menu-link,
+		.top-bar h1 .back-link {
 		  position: absolute;
 		  margin: 0.625rem;
 		  margin-bottom: 0;
+		  width: 1.875rem;
+		  text-align: center;
+		  
 		  left: 0;
-		  padding: 0.375rem;
+		  padding: 0.375rem 0;
 		  line-height: 1em;
 		  background: #6b6da1;
 		  color: white;
+		}
+		
+		.top-bar h1 .back-link {
+			background: transparent;
+			font-size: 1.875rem;
+			line-height: .875em;
+			padding: 0;
+		}
+		
+		.top-bar h1 .back-link:before {
+			content: "‹";
 		}
 	
 	.top-bar .tools {

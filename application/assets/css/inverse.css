@@ -58,6 +58,6 @@
 }
 
 .inverse .inset label {
-  top: 1em;
+  top: .625em;
   left: 1em;
 }

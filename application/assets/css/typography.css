@@ -2,13 +2,12 @@
 
 /* Main Elements */
 html { 
-    font: normal 100%/1.65 serif; 
     -webkit-font-smoothing: antialiased; 
     -webkit-text-size-adjust: 100%; 
     -ms-text-size-adjust: 100%; 
     }
 
-body { 
+body {
     -webkit-hyphens: auto; 
     -moz-hyphens: auto; 
     -ms-hyphens: auto; 
@@ -27,8 +26,8 @@ h1,h2,h3,h4,h5,h6 {
 
 h1,
 .alpha {
-  font-size: 30px;
-  font-size: 1.875rem; /* 30 / 16 = 1.875 */
+  font-size: 36px;
+  font-size: 1.875rem; /* 36 / 16 = 1.875 */
   margin-bottom: 0.495em; 
   }
 
