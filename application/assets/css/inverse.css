@@ -5,6 +5,11 @@
   text-align: center;
 }
 
+  .inverse .row {
+    padding-left: 1.875em;
+    padding-right: 1.875em;
+  }
+
 .inverse h1, 
 .inverse h2, 
 .inverse h3, 
@@ -55,9 +60,4 @@
 .inverse input[type="submit"] {
   width: 100%;
   line-height: 2.5em;
-}
-
-.inverse .inset label {
-  top: .625em;
-  left: 1em;
 }

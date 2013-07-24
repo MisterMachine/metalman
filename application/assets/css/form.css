@@ -169,6 +169,10 @@ fieldset p {
   color: #999;
 }
 
+  .inverse .inset label {
+    top: .625em;
+    left: 1em;
+  }
 .inset span.status,
 .inset span.strength {
 	left: auto;
