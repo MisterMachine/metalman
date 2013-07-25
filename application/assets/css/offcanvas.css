@@ -1,8 +1,24 @@
-.main.active {
-  left: 250px;
+.js .top-bar,
+.js #container,
+.js nav[role=navigation] {
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 
-.main.active nav[role=navigation] {
+.top-bar,
+#container {
+  display: block;
+  position: relative;
+  width: auto;
+}
+
+.active .top-bar,
+.active #container {
+  margin-left: 88%;
+  margin-right: -88%;
+}
+
+.active.js nav[role=navigation] {
   left: 0;
 }
 
@@ -11,16 +27,14 @@ nav[role=navigation] {
 }
 
 .js nav[role=navigation] {
-  width: 250px;
+  width: 88%;
   height: 100%;
   background: #6b6da1;
   position: absolute;
-  top: 3.125em;
-  left: -250px;
+  top: 0;
+  left: -88%;
   -webkit-box-shadow: inset -3px -3px 0 3px rgba(0, 0, 0, 0.2);
   box-shadow: inset -3px -3px 0 3px rgba(0, 0, 0, 0.2);
-  -webkit-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
 }
 
 	.js nav[role=navigation] ul {
