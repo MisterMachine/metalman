@@ -67,3 +67,8 @@
   width: 100%;
   line-height: 2.5em;
 }
+
+
+.inverse .attention {
+  background: #73bdc8 !important;
+}
