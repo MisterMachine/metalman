@@ -60,7 +60,7 @@ input[type="submit"] {
   padding: 0.625em 1.375em;
   
   background-color: #f5548c;
-  border-color: #f5548c;
+  border-color: rgba(245, 84, 140, 0);
   color: white;
 }
 
@@ -72,7 +72,7 @@ input[type="reset"]:hover,
 input[type="reset"]:focus,
 input[type="submit"]:hover,
 input[type="submit"]:focus {
-	border-bottom: 2px solid #d75381;
+	border-bottom: 2px solid rgba(0, 0, 0, 0.3);
 }
 
 	button.disabled,

@@ -1,15 +1,18 @@
 /* Inverse */
+/* inverts global color scheme */
 
 .inverse {
   background: #98d1da;
   text-align: center;
 }
-
+  
+  /* layout spacing */
   .inverse .row {
     padding-left: 1.875em;
     padding-right: 1.875em;
   }
 
+/* typography */
 .inverse h1, 
 .inverse h2, 
 .inverse h3, 
@@ -29,6 +32,7 @@
   color: white;
 }
 
+/* top bar: no nav */
 .inverse .top-bar {
   background: white;
 }
@@ -41,6 +45,8 @@
 	  padding-left: 0;
 	}
 
+
+/* forms */
 .inverse label {
   text-align: left;
 }

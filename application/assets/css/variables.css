@@ -17,14 +17,22 @@ a { color: #ef518b; }
 /* Theme */
 h1,h2,h3,h4,h5,h6 { color: #73bdc8; }
 
-.attention { background: #6cbdc7; }
+/* Blank */
 .blank { background: white; }
 
+/* Attention */
+.attention { background: #6cbdc7 !important; }
+
 /* Alert */
-{ color: #fe6465; }
+.alert { background: #fe6465 !important; }
 
 /* Warning */
-{ color: #fca04f; }
+.warning { background: #ff9600 !important; }
 
 /* Success */
-{ color: #5cc94f; }
+.success { background: #8ec448 !important; }
+
+/* Value */
+.value { 
+  color: #988d25 !important;
+  background: #edde40 !important; }
