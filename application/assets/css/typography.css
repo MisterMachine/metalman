@@ -80,5 +80,16 @@ small {
   }
 
 /* Anchors */
-
 a { text-decoration: none; }
+
+/* Lists */
+
+ol {
+  margin-left: 1.65em;
+}
+
+li ul,
+li ol,
+dl dd {
+  margin-left: 1.65em;
+}

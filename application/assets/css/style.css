@@ -1,16 +1,10 @@
 @charset "UTF-8";
 
-/* Face */
-@import "face.css";
-
 /* Reset */
 @import "reset.css";
 
 /* Box Sizing */
 @import "boxsizing.css";
-
-/* Elements */
-@import "elements.css";
 
 /* Helpers */
 @import "helpers.css";
