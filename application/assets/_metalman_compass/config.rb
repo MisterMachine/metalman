@@ -24,8 +24,8 @@ generated_images_dir = "../img/build"
 # Determine if we're compiling for a production environment
 is_production = (environment == :production) ? true : false
 
-# You can select your preferred output style here (can be overridden via the command line):
-output_style = ( is_production ) ? :compressed : :expanded
+# You can select your preferred output style here (can be overridden via the command line): options: :nested, :expanded, :compact, or :compressed
+output_style = ( is_production ) ? :nested : :expanded
 
 # To enable relative paths to assets via compass helper functions. Uncomment:
 relative_assets = true

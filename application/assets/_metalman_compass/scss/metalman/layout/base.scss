@@ -1,0 +1,26 @@
+$base-margin: emCalc(10px) !default;
+$inset-margin: 0 emCalc(30px) !default;
+
+.main {
+    margin-top: $base-margin;
+    margin-bottom: $base-margin;
+    }
+
+.row {
+    width: auto;
+    margin-left: $base-margin;
+    margin-right: $base-margin;
+    padding: 0;
+    }
+    
+.center {
+    text-align: center;
+    }
+ 
+.inverse {
+  
+  .row {
+    margin: $inset-margin;
+  }
+  
+}        

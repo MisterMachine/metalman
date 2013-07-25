@@ -1,0 +1,62 @@
+/* Variables */
+@import "../../variables";
+
+/* Elements */
+
+/* Add HTML5 elements */
+article, 
+aside, 
+details, 
+figcaption, 
+figure, 
+footer, 
+header, 
+hgroup, 
+nav, 
+section, 
+summary { display: block; }
+
+/* Defaults */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+select,
+textarea,
+input {
+  color: $primary-color;
+  font-family: $body-font-family;
+  font-weight: $body-font-weight;
+  text-decoration: none; 
+  }
+
+h1,h2,h3,h4,h5,h6 { color: $header-color; }
+a { color: $action-color; }
+
+ol, ul, dl {
+  list-style: none;
+  margin: $margin-normal; }
+
+blockquote, q {
+  quotes: none; 
+  }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; 
+  }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; 
+  }
+  
+article {
+  margin: $margin-normal;
+  margin-top: emCalc(30px);
+}  
