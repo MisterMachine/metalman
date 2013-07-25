@@ -35,9 +35,68 @@
 
 <!-- Main Content Area -->
   <section id="container" class="main">
-    <div class="row">
+    <div class="row attention">
       <!-- Add your site or application content here -->
-      <p class="no-margin">Hello! This is Metal Man.</p>
+      <p class="no-margin">Congratulations, this is a message!</p>
+    </div>
+
+<!-- Forms -->
+    <div class="row">
+      <h2>Form: Top Labels</h2>
+      <!-- Form: Samples -->
+      <form class="" action="/">
+        <fieldset>
+          <label for="name">First Name</label>
+          <input type="text" id="name" class="text" />
+          <p class="form-help">This is help text under the form field.</p>
+        </fieldset>
+
+        <fieldset>
+          <label for="email">Last Name</label>
+          <input type="email" id="email" class="text" />
+        </fieldset>
+
+        <fieldset class="form-actions">
+          <input type="submit" value="Next" />
+          <input type="button" value="Disabled" class="disabled" />
+        </fieldset>
+      </form>
+      
+      <h2>Form: Inset Labels</h2>
+      <form class="inset" action="/">
+        <fieldset>
+          <label for="name">First Name</label>
+          <input type="text" id="name" class="text" />
+          <p class="form-help">This is help text under the form field.</p>
+        </fieldset>
+
+        <fieldset>
+          <label for="email">Last Name</label>
+          <input type="email" id="email" class="text" />
+        </fieldset>
+
+        <fieldset class="form-actions">
+          <input type="submit" value="Next" />
+          <input type="button" value="Disabled" class="disabled" />
+        </fieldset>
+      </form>
+      
+      <h2>Buttons: Various</h2>
+      <form action="/">
+        <fieldset>
+          <p><input type="button" value="Input type attention" class="attention"></p>
+          <p><input type="reset" value="Input type alert" class="alert"></p>
+          <p><input type="submit" value="Input type warning" class="warning"></p>
+          <p><input type="submit" value="Input type submit disabled" class="disabled" disabled></p>
+          <p><button type="button" class="success">Button type success</button></p>
+          <p><button type="reset" class="value">Button type value</button></p>
+          <p><button type="submit">Button type submit</button></p>
+          <p><button type="button" class="disabled" disabled>Button type button disabled</button></p>
+          <p><button>Button</button></p>
+          <p><button type="button" class="secondary">Secondary button</button></p>
+          <p><button type="button" class="secondary disabled" disabled>Secondary button disabled</button></p>
+        </fieldset>
+      </form>	
     </div>
 
 <!-- Headers -->
@@ -61,64 +120,9 @@
       </article>
     </div>
 
-<!-- Forms -->
-    <div class="row">
-      <!-- Form: Samples -->
-      <form class="" action="/">
-        <fieldset>
-          <label for="name">First Name</label>
-          <input type="text" id="name" class="text" />
-          <p class="form-help">This is help text under the form field.</p>
-        </fieldset>
-
-        <fieldset>
-          <label for="email">Last Name</label>
-          <input type="email" id="email" class="text" />
-        </fieldset>
-
-        <fieldset class="form-actions">
-          <input type="submit" value="Next" />
-          <input type="button" value="Disabled" class="disabled" />
-        </fieldset>
-      </form>
-
-      <form class="inset" action="/">
-        <fieldset>
-          <label for="name">First Name</label>
-          <input type="text" id="name" class="text" />
-          <p class="form-help">This is help text under the form field.</p>
-        </fieldset>
-
-        <fieldset>
-          <label for="email">Last Name</label>
-          <input type="email" id="email" class="text" />
-        </fieldset>
-
-        <fieldset class="form-actions">
-          <input type="submit" value="Next" />
-          <input type="button" value="Disabled" class="disabled" />
-        </fieldset>
-      </form>
-
-      <form action="/">
-        <fieldset>
-          <p><input type="button" value="Input type attention" class="attention"></p>
-          <p><input type="reset" value="Input type alert" class="alert"></p>
-          <p><input type="submit" value="Input type warning" class="warning"></p>
-          <p><input type="submit" value="Input type submit disabled" class="disabled" disabled></p>
-          <p><button type="button" class="success">Button type success</button></p>
-          <p><button type="reset" class="value">Button type value</button></p>
-          <p><button type="submit">Button type submit</button></p>
-          <p><button type="button" class="disabled" disabled>Button type button disabled</button></p>
-          <p><button>Button</button></p>
-          <p><button type="button" class="secondary">Secondary button</button></p>
-          <p><button type="button" class="secondary disabled" disabled>Secondary button disabled</button></p>
-        </fieldset>
-      </form>	
-    </div>
-
 <!-- Lists -->
   <div class="row">
+  <h2>Lists</h2>
   <!-- List: Unordered -->
     <ul>
       <li>list item 1</li>
@@ -177,7 +181,7 @@
   
 <!-- Tables -->
   <div class="row">
-    <h3>Default Table</h3>
+    <h2>Tables</h2>
     <table>
       <caption>Table Caption</caption>
       <thead>
@@ -241,6 +245,7 @@
   </div>
 
   <div class="row">
+    <h2>Type</h2>
     <!-- Type -->
     <p>The <a href="#">a element</a> example</p>
     <p>The <abbr>abbr element</abbr> and an <abbr title="Abbreviation">abbr</abbr> element with title examples</p>
@@ -272,7 +277,10 @@
     </blockquote>
     
     <blockquote>Even better philosophical quote marked up with just a &lt;blockquote> element.</blockquote>
+  </div>
     
+  <div class="row">
+    <h2>Media</h2>
     <!-- Media -->
     <figure>
       <img src="http://placehold.it/240x240" alt="alt text">
@@ -286,7 +294,10 @@
       Figcaption content
       </figcaption>
     </figure>
-    
+  </div>
+  
+  <div class="row">
+    <h2>More Forms</h2>
     <!-- Forms -->
     <form>
       <fieldset>
@@ -332,6 +343,7 @@
   </div>
 
   <div class="row">
+    <h2>Article Objects</h2>
     <!-- Article -->
     <article>
       <header>
@@ -350,7 +362,7 @@
     </article>
 
     <!-- Slats List -->
-    <ol class="slats">
+    <ul class="slats">
       <li class="group">
         <a href="#">
           <img src="img/thumb.png" alt="thumbnail" />
@@ -358,7 +370,7 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="meta">August 10, 2011</span></p>
         </a>
       </li>
-    </ol>
+    </ul>
 
     <form action="/">
       <fieldset>

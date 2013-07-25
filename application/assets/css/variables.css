@@ -21,7 +21,11 @@ h1,h2,h3,h4,h5,h6 { color: #73bdc8; }
 .blank { background: white; }
 
 /* Attention */
-.attention { background: #6cbdc7 !important; }
+.attention { background: #98d1da !important; }
+  .attention p { 
+    font-weight: bold;
+    color: white;
+    font-size: 85%; }
 
 /* Alert */
 .alert { background: #fe6465 !important; }
