@@ -23,8 +23,8 @@
         <![endif]-->
         <header class="top-bar">
           <h1 class="logo">
-            <a class="button menu-link" href="#">M</a>
-            Metalman
+            <a class="button menu-link" href="#">Z</a>
+            Tommy Smith
           </h1>
           
           <div class="tools">
@@ -35,7 +35,7 @@
         <section id="container" class="main">
             <div class="row">
                 <!-- Add your site or application content here -->
-                <p>Hello! This is Metal Man.</p>
+                <p class="no-margin">Hello! This is Metal Man.</p>
             </div>
 
             <div class="row">
@@ -58,20 +58,39 @@
                 </article>
 				
 				<!-- Form: Samples -->
-                <form action="/">
+                <form class="" action="/">
                     <fieldset>
-                        <label for="name">Name</label>
-                        <input type="text" id="name" class="form-text" />
+                        <label for="name">First Name</label>
+                        <input type="text" id="name" class="text" />
                         <p class="form-help">This is help text under the form field.</p>
                     </fieldset>
 
                     <fieldset>
-                        <label for="email">Email</label>
-                        <input type="email" id="email" class="form-text" />
+                        <label for="email">Last Name</label>
+                        <input type="email" id="email" class="text" />
                     </fieldset>
 
                     <fieldset class="form-actions">
-                        <input type="submit" value="Submit" />
+                        <input type="submit" value="Next" />
+                        <input type="button" value="Disabled" class="disabled" />
+                    </fieldset>
+                </form>
+                
+                <form class="inset" action="/">
+                    <fieldset>
+                        <label for="name">First Name</label>
+                        <input type="text" id="name" class="text" />
+                        <p class="form-help">This is help text under the form field.</p>
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="email">Last Name</label>
+                        <input type="email" id="email" class="text" />
+                    </fieldset>
+
+                    <fieldset class="form-actions">
+                        <input type="submit" value="Next" />
+                        <input type="button" value="Disabled" class="disabled" />
                     </fieldset>
                 </form>
 				
@@ -86,6 +105,8 @@
                         <p><button type="submit">Button type submit</button></p>
                         <p><button type="button" class="disabled" disabled>Button type button disabled</button></p>
                         <p><button>Button</button></p>
+                        <p><button type="button" class="secondary">Secondary button</button></p>
+                        <p><button type="button" class="secondary disabled" disabled>Secondary button disabled</button></p>
                     </fieldset>
                 </form>	
 				
@@ -365,10 +386,10 @@
             
           <nav class="side-menu" role="navigation">
             <ul>
-              <li><a href="#"><i>A</i> Tommy Smith</a></li>
+              <li><a href="single.html"><i>A</i> Tommy Smith</a></li>
               <li><a href="#"><i>B</i> My Stuff</a></li>
               <li><a href="#"><i>C</i> Store</a></li>
-              <li><a href="#"><i>D</i> My Account</a></li>
+              <li><a href="login.html"><i>D</i> My Account</a></li>
             </ul>
           </nav>
             

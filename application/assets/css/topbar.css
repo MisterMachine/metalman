@@ -3,26 +3,42 @@
 .top-bar {
   height: 3.125em;
   line-height: 3.125em;
-  margin-bottom: 0.625em;
+  margin-bottom: 0;
   background: #73bdc8;
 }
 
 	.top-bar h1 {
 	  font-size: 1.125rem;
 	  color: white;
-	  padding-left: 2.8125rem;
+	  padding-left: 3rem;
 	  line-height: 2.8125em;
+	  margin-bottom: 0;
 	}
 	
-		.top-bar h1 .menu-link {
+		.top-bar h1 .menu-link,
+		.top-bar h1 .back-link {
 		  position: absolute;
 		  margin: 0.625rem;
 		  margin-bottom: 0;
+		  width: 1.875rem;
+		  text-align: center;
+		  
 		  left: 0;
-		  padding: 0.3125rem;
-		  line-height: 100%;
+		  padding: 0.375rem 0;
+		  line-height: 1em;
 		  background: #6b6da1;
 		  color: white;
+		}
+		
+		.top-bar h1 .back-link {
+			background: transparent;
+			font-size: 1.875rem;
+			line-height: .875em;
+			padding: 0;
+		}
+		
+		.top-bar h1 .back-link:before {
+			content: "‹";
 		}
 	
 	.top-bar .tools {
@@ -40,8 +56,10 @@
 		.top-bar .tools a i {
 		  background: #edde40;
 		  font-style: normal;
+		  line-height: 1em;
 		  color: #988d25;
-		  padding: 0.15625rem 0.5rem;
+		  padding: 0.15625rem 0.6rem;
+		  
 		  margin-left: 0.3125rem;
 		  -webkit-border-radius: 20px;
 		  border-radius: 20px;

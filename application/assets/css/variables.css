@@ -1,3 +1,14 @@
+/* Typography */
+
+html {
+	font-size: 16px;
+	line-height: 1.625em;	
+	}
+
+body {
+	font-family: "HelveticaNeue", Helvetica, Arial, sans-serif; 
+	}
+
 /* Colors */
 
 /* Action */
@@ -5,6 +16,9 @@ a { color: #ef518b; }
 
 /* Theme */
 h1,h2,h3,h4,h5,h6 { color: #73bdc8; }
+
+.attention { background: #6cbdc7; }
+.blank { background: white; }
 
 /* Alert */
 { color: #fe6465; }

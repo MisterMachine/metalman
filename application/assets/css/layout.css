@@ -1,13 +1,11 @@
 .main {
-  margin-top: 0.625em;
+  margin-top: 0;
   margin-bottom: 0.625em;
   }
 
 .row {
   width: auto;
-  margin-left: 0.625em;
-  margin-right: 0.625em;
-  padding: 0;
+  padding: 0.625em;
   }
   
 .center {

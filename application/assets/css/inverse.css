@@ -1,9 +1,14 @@
 /* Inverse */
 
 .inverse {
-  background: #73bdc8;
+  background: #98d1da;
   text-align: center;
 }
+
+  .inverse .row {
+    padding-left: 1.875em;
+    padding-right: 1.875em;
+  }
 
 .inverse h1, 
 .inverse h2, 
@@ -29,6 +34,8 @@
 }
 
 	.inverse .top-bar h1 {
+	  font-size: 1.5em;
+	  line-height: 2.12em; 
 	  color: #73bdc8;
 	  text-transform: uppercase;
 	  padding-left: 0;
@@ -45,22 +52,6 @@
 .inverse label {
   font-size: 75%;
   text-transform: uppercase;
-}
-
-.inverse input[type="text"],
-.inverse input[type="password"],
-.inverse input[type="date"],
-.inverse input[type="datetime"],
-.inverse input[type="datetime-local"],
-.inverse input[type="month"],
-.inverse input[type="week"],
-.inverse input[type="email"],
-.inverse input[type="number"],
-.inverse input[type="search"],
-.inverse input[type="tel"],
-.inverse input[type="time"],
-.inverse input[type="url"] {
-  padding-left: 5.625em;
 }
 
 .inverse button,

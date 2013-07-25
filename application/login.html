@@ -29,29 +29,59 @@
         </header>
         
         <section id="container" class="main">
+            <div class="row attention">
+            	<p class="no-margin">Your account has been created.</p>
+            </div>
             <div class="row">
                 <!-- Add your site or application content here -->
-                <h2>Hello! This is Metal Man.</h2>
+                <h2 class="legend">Student's Account</h2>
                 <form class="inset" action="/">
+                    <fieldset class="form-actions">
+	                    <div class="field">
+	                        <label for="email">Last Name</label>
+	                        <input type="email" id="email" class="text" />
+	                    </div>
+	
+						 <fieldset>
+	                        <input type="submit" value="Next" />
+	                        <input type="button" value="Disabled" class="disabled" />
+	                    </fieldset>
+                    </fieldset>
+                    
+                    <fieldset>
+                    	<div class="field">
+                    		<label for="password">Password</label>
+							<input type="password" id="password" class="text" />
+						</div>
+						<div class="field">
+                    		<label for="password">Password</label>
+							<input type="password" id="password2" class="text" />
+							<span class="status">Match</span>
+						</div>
+						
+						<div class="field">
+                    		<label for="password">Password</label>
+							<input type="password" id="password2" class="text" />
+							<span class="strength">Weak</span>
+						</div>
+                    </fieldset>
+                    
                     <fieldset>
                         <label for="name">First Name</label>
                         <input type="text" id="name" class="text" />
                         <p class="form-help">This is help text under the form field.</p>
                     </fieldset>
-
-                    <fieldset>
-                        <label for="email">Last Name</label>
-                        <input type="email" id="email" class="text" />
-                    </fieldset>
-
-                    <fieldset class="form-actions">
-                        <input type="submit" value="Next" />
-                        <input type="button" value="Disabled" class="disabled" />
-                    </fieldset>
+                    
                 </form>
 
             </div>
             
+            <div class="row blank">
+				<fieldset>
+					<input type="button" value="I'm Done" class="disabled" disabled />
+					<input type="button" value="I'm Done" />
+				</fieldset>
+            </div>
         </section>
 
         <script src="http://code.jquery.com/jquery.js"></script>
